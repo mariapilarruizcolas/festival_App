@@ -1,0 +1,13 @@
+.classForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20rem;
+    background-color: aqua;
+    height: 60vh;
+
+}
+.div{
+    margin:20px;
+}
