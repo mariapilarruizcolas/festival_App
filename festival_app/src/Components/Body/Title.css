@@ -1,12 +1,14 @@
 .container-title {
     width: 100%;
     height: 83vh;
-    /* background: brown; */
+    background-color: #e7dfc7;
     display: grid;
     grid-template-columns: 2fr 2fr 1fr 2fr;
     grid-template-rows: 1fr;
     grid-template-areas: "1" "2" "3" "4";
-    font-family: 'Kalam', cursive;
+    font-family: 'Poiret One', cursive, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .name-app {
@@ -18,8 +20,24 @@ align-items: flex-start;
 }
 .name-app > h1 {
     font-size: 70px;
+    font-weight: 800;
     position: absolute;
     margin-left: 10rem;
+    opacity: 0;
+    animation: textApparition 0.5s 0.5s ease-out forwards;
+    transform: translateY(100px);
+}
+
+.name-app > img {
+    /* background: blue; */
+    width: 90%;
+    height: 90%;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: textApparition 0.7s 0.7s ease-out forwards;
+    transform: translateY(100px);
 }
 
 .left-pic {
@@ -30,16 +48,13 @@ align-items: flex-start;
     align-items: center;
 }
 
-/* .enAttendant1 {
-    width: 40%;
-    height: 45%;
-    background: rgb(53, 52, 52);
-    position: absolute;
-    margin-right: 5rem;
-} */
 .pic-left {
     width: 500px;
     height: 340px;
+    opacity: 0;
+
+    animation: textApparition 0.7s 0.9s ease-out forwards;
+    transform: translateY(100px);
 }
 
 .trouve-fest {
@@ -53,8 +68,11 @@ align-items: flex-start;
 .trouve-fest > h2 {
     font-size: 70px;
     position: absolute;
-    margin-left: 10rem;
+    margin-left: 12rem;
     margin-top: 15rem;
+    opacity: 0;
+    animation: textApparitionX 0.7s 1.4s ease-out forwards;
+    transform: translateY(100px);
 }
 
 .right-pic {
@@ -64,15 +82,41 @@ align-items: flex-start;
     justify-content: flex-start;
     align-items: center;
 }
+
 .pic-right {
     width: 85%;
     height: 70%;
     margin-bottom: 5rem;
+    opacity: 0;
+    animation: textApparition 0.7s 1.2s ease-out forwards;
+    transform: translateY(100px);
 }
-.enAttendant2 {
+/* .enAttendant2 {
     background: rgb(29, 26, 15);
     width: 25%;
     height: 60%;
     position: absolute;
     z-index: 1000;
-}
+} */
+
+@keyframes textApparition {
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+
+  @keyframes textApparitionX {
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes imgApparition {
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
