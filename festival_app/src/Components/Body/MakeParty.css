@@ -231,6 +231,10 @@
   border-color:white;
 }
 
+.h2-party {
+  margin-bottom: 7rem;
+}
+
 @keyframes textApparition {
   100% {
     opacity: 1;

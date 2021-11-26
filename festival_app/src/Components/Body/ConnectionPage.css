@@ -1,5 +1,6 @@
 .connectionPage{
-    background-color:#ffffff;
+    /* background-color:#ffffff; */
+    background-color: #e7dfc7;
     height: 500px;
     width: 300px;
     display: flex;
@@ -8,6 +9,14 @@
     border-radius: 25px;
     color: rgb(241, 212, 47);
     margin:100px auto;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: textApparition 0.6 1s ease-out forwards;
+}
 
-    
+@keyframes textApparition {
+    100% {
+        opacity: 1;
+        transform: none;
+    }
 }

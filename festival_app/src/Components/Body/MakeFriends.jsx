@@ -1,6 +1,5 @@
 import React from 'react';
 import './MakeFriends.css';
-import artifice3 from '../../pictures/artifice3.svg'
 
 const MakeFriends = () => {
     return (
@@ -42,7 +41,7 @@ const MakeFriends = () => {
         {/* BTN PARTY */}
         <span className="button-preferences">
           <span className="btn">Let's find Friends  !</span>
-          <img src={artifice3} alt="pic" />
+          <h2 className="h2-friends">Envie de compagnie ?</h2>
         </span>
     </div>
     );

@@ -1,6 +1,6 @@
 import "./MakeParty.css";
 import React from "react";
-import artifice2 from '../../pictures/artifice2.svg'
+// import artifice2 from '../../pictures/artifice2.svg'
 import Switch from "./Switch";
 
 const MakeParty = () => {
@@ -60,7 +60,8 @@ const MakeParty = () => {
         {/* BTN PARTY */}
         <span className="button-preferences">
           <span className="btn">Let's Travel  !</span>
-          <img src={artifice2} alt="" />
+          {/* <img src={artifice2} alt="" /> */}
+          <h2 className="h2-party">Envie de t'amuser ? Choisis ton festival !</h2>
         </span>
     </div>
   );

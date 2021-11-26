@@ -1,0 +1,131 @@
+.container-fr {
+    height: 100vh;
+    width: 100%;
+    background: #ebdfc9;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "1" "2";
+    font-family: 'Poiret One', cursive, sans-serif;
+}
+
+.container-fr-left {
+    /* background: rgb(151, 142, 129); */
+    grid-area: "1";
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container-card-left {
+    width: 80%;
+    height: 80%;
+    /* background: yellow; */
+    background: #f1dfb4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    transform: rotateZ(30deg);
+    box-shadow: 0px 20px 60px #333;
+    transition: 1s;
+}
+.container-card-left:hover {
+    transform: rotateZ(0deg);
+    transform: scale(1.2);
+}
+
+.container-fr-right {
+    /* background: cadetblue; */
+    grid-area: "2";
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container-card-right{
+    width: 80%;
+    height: 80%;
+    /* background: yellow; */
+    background: #f1dfb4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: rotateZ(-30deg);
+    box-shadow: 0px 20px 60px #333;
+    transition: 1s;
+}
+.container-card-right:hover {
+    transform: rotateZ(0deg);
+    transform: scale(1.2);
+}
+
+.image-fr-left {
+width: 55%;
+height: 75%;
+/* background: chartreuse; */
+transition: 1s;
+}
+.image-fr-left:hover {
+    transform: rotate3d(20deg);
+
+}
+.image-fr-left > img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-fr-right {
+    width: 55%;
+    height: 75%;
+    background: rgb(115, 134, 96);
+}
+.image-fr-right > img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-btn-left {
+    border: 2px solid #333;
+    width: 30%;
+    height: 10%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+}
+.container-btn-left:hover {
+    background: #333;
+    color: antiquewhite;
+}
+
+.container-btn-left {
+    border: 2px solid #333;
+    /* margin-top: 15rem; */
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.container-btn-right {
+    border: 2px solid #333;
+    width: 30%;
+    height: 10%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15rem;
+    margin-left: 2rem;
+    transition: 0.5s;
+}
+.container-btn-right:hover {
+    background: #333;
+    color: antiquewhite;
+}
+
+.container-btn-right {
+    border: 2px solid #333;
+    font-size: 20px;
+    font-weight: 800;
+}

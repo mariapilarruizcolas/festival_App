@@ -193,7 +193,7 @@
     justify-content: center;
     align-items: center;
   }
-  .button-preferences > img {
+  /* .button-preferences > img {
     width: 40%;
     height: 40%;
     margin-bottom: 17rem;
@@ -202,6 +202,13 @@
     transform: translateX(-100px);
     animation: textApparition 0.6s 2s ease-out forwards;
     position: absolute;
+  } */
+
+  .button-preferences > h2 {
+    font-size: 50px;
+    opacity: 0;
+    transform: translateY(-100px);
+    animation: textApparition 0.6s 2s ease-out forwards;
   }
 
   /***** BUTTON *******/
@@ -236,6 +243,10 @@
     width: 100%;
     height: 100%;
     border-color:white;
+  }
+
+  .h2-friends {
+    margin-bottom: 7rem;
   }
   
   @keyframes textApparition {
