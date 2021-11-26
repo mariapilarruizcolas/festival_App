@@ -23,7 +23,7 @@ const MakeFriends = () => {
           <div className="bars"></div>
 
           <div className="style-friends">
-          <div className="style"> <p>date :</p></div>
+          <div className="style"> <p>Age :</p></div>
             <input type="text" className="style-input" />
           </div>
 
