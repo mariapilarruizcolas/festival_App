@@ -1,7 +1,6 @@
 import React from 'react';
 import './MakeFriends.css';
 import artifice3 from '../../pictures/artifice3.svg'
-import picfestival from '../../pictures/picfestival.png'
 
 const MakeFriends = () => {
     return (
