@@ -25,7 +25,7 @@ const MakeParty = () => {
           <div className="bars"></div>
 
           <div className="date-party">
-          <div className="date"> <p>date :</p></div>
+          <div className="date"> <p>Date :</p></div>
             <input type="text" className="date-input" />
           </div>
 
@@ -39,7 +39,7 @@ const MakeParty = () => {
           <div className="bars"></div>
 
           <div className="durée-party">
-          <div className="durée"> <p>durée :</p></div>
+          <div className="durée"> <p>Durée :</p></div>
             <input type="text" className="durée-input" />
           </div>
 
