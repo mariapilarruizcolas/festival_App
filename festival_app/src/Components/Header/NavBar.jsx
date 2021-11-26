@@ -17,7 +17,7 @@ const NavBar = () => {
                     <Link to="/Compagnie">T'as pas d'amis ?</Link>
                 </li>   
                 <li>
-                    <Link to="/Sinscrire">S'inscrire</Link>
+                    <Link to="/Login">S'inscrire</Link>
                 </li>  
             </ul>
         </nav>
