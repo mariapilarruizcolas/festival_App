@@ -16,7 +16,7 @@ const Title = () => {
 
       </div>
       <div className="trouve-fest">
-          <h2>Trouves ton festival!</h2>
+          <h2>Trouves ton festival</h2>
       </div>
       <div className="right-pic">
         <img src={pic2} className="pic-right" alt="pic of pic" />
