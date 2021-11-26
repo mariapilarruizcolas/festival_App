@@ -26,8 +26,8 @@ function NewUserForm() {
       </div>
       <div className="radioForm">
         
-      <input className="inputForm"  type="radio" name="sex" value="woman" id="sex" required/> <label for="sex">Woman</label>
-      <input className="inputForm"  type="radio" name="sex" value="man" id="sex" required/> <label for="sex">Man</label>
+      <input type="radio" name="sex" value="woman" id="sex" required/> <label for="sex">Woman</label>
+      <input type="radio" name="sex" value="man" id="sex" required/> <label for="sex">Man</label>
       </div>
       <div classname="itemsForm">
         <label for="userMusic" id="userMusic" name="userMusic">
@@ -53,7 +53,7 @@ function NewUserForm() {
       <div classname="itemsForm">
 
         <button className="buttonForm" type="submit">Create User</button>
-        <button className="buttonForm" type="submit">New here</button>
+        
       </div>
       </form>
     
