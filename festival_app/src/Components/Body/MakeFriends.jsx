@@ -15,15 +15,11 @@ const MakeFriends = () => {
 
           <div className="bars"></div>
 
-          <div className="age-friends">
-          <div className="age"> <p>date :</p></div>
-            <input type="text" className="age-input" />
-          </div>
 
           <div className="bars"></div>
 
           <div className="style-friends">
-          <div className="style"> <p>date :</p></div>
+          <div className="style"> <p>Date :</p></div>
             <input type="text" className="style-input" />
           </div>
 
