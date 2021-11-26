@@ -10,7 +10,6 @@
 }
 
 .container-fr2-left {
-    /* background: rgb(151, 142, 129); */
     grid-area: "1";
     display: flex;
     justify-content: center;
@@ -19,11 +18,10 @@
 .container-card-left {
     width: 80%;
     height: 80%;
-    background: #cebe98;
+    background: #ac9e7f;
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* transform: rotateZ(30deg); */
     box-shadow: 0px 20px 60px #333;
     transition: 1s;
 }
@@ -58,7 +56,6 @@
 .image-fr2-left {
 width: 55%;
 height: 75%;
-/* background: chartreuse; */
 transition: 1s;
 }
 .image-fr2-left:hover {
@@ -99,7 +96,6 @@ transition: 1s;
 
 .container-btn-left {
     border: 2px solid #333;
-    /* margin-top: 15rem; */
     font-size: 20px;
     font-weight: 800;
 }
