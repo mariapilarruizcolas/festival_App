@@ -9,14 +9,17 @@ const NavBar = () => {
             <ul>
                 <li>
                     <Link to="/">Accueil</Link>
-                </li>                    
+                </li>
+                <li>  
+                    <Link to="/Festivals">Les festivals</Link>
+                </li>                     
                 <li>
                     <Link to="/OuFaireLaFete">Ou faire la fête ?</Link>
                 </li>  
                 <li>
                     <Link to="/Compagnie">T'as pas d'amis ?</Link>
-                </li>   
-                <li>
+                </li>  
+                <li>  
                     <Link to="/Login">S'inscrire</Link>
                 </li>  
             </ul>
