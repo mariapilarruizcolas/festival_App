@@ -1,16 +1,19 @@
-import React from "react";
-import NavBar from "../Components/Header/NavBar";
-
+import React from 'react';
+import Footer from '../Components/Footer/Footer';
+import NavBar from '../Components/Header/NavBar';
 import NewUserForm from "../Components/NewUserForm";
 
-function Login (){
-    return(
-        <div className="container-login">
+const Login = () => {
+    return (
+        <>
         <NavBar />
         <NewUserForm />
-        </div>
-    )
-}
+        <Footer />
+        </>
+    );
+};
+
 export default Login;
+
 
 
