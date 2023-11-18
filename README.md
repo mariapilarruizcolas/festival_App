@@ -34,9 +34,3 @@ npm start
 
 ```
 
-
-
-
-
-festival_app/src/pictures
-festival_app/src/pictures
